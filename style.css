@@ -1,0 +1,11 @@
+p{
+	font-weight:bold;
+	color:red;
+	width:25%;
+}
+
+p:hover{
+	background-color:black;
+	color:lime;
+}
+
