@@ -3,22 +3,22 @@
 <title>Ben Krieger</title>
 <link href="style.css" rel="stylesheet">
 <script src="jquery-3.1.1.js"></script>
+<script>
+$( document ).ready(function() {
+	alert("hi");
+	$( "img" ).click(function(event){
+		alert("hello");
+	)}
+});
+</script>
 </head>
 <body>
 	<div align = "center">
-		<p> click the picture :) </p>
 		<img src="Ben_Krieger.jpg" height="225" alt="Ben Krieger" rel="Ben Krieger">
 		<p> Hello, My Name is Ben Krieger</p>
 		<p> My NetId is bk494 </p>
 		<p> I am a CS student at Cornell Tech! </p>
 		<p> Bio: Ben was born on June 28th, 1990 to parents. As time went by, he grew up. When he was 18 he enrolled in Temple University where he would study undeclared major for one year. After realizing that Philadelphia was truly the city of brotherly love, he transferred to SUNY New Paltz in New Paltz, NY where he would pursue a Bachelor's degree in Computer Science. After successfully graduating in 2012 he returned home to live with his parents.</p>
 	</div>
-<script> 
-$( document ).ready(function() {
-	$( "img" ).click(function( event ){
-		window.location.href =  "https://www.youtube.com/watch?v=YxgsxaFWWHQ"
-	}) 
-}); 
-</script>
 </body>
 </html>
